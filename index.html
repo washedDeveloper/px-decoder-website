@@ -1,0 +1,27 @@
+<html>
+  <body>
+    <h1 id="title">px payload decoder</h1>
+    <div id="container">
+      <textarea
+        name="payload"
+        id="payload"
+        placeholder="encoded payload"
+        cols="80"
+        rows="10"
+      ></textarea>
+      <input id="uuid" placeholder="uuid" />
+      <button id="decode-button">decode payload</button>
+    </div>
+  </body>
+  <script src="./decoder.js"></script>
+  <style>
+    #title {
+      text-align: center;
+    }
+    #container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  </style>
+</html>
